@@ -1,0 +1,1232 @@
+[
+  {
+    "id": 1,
+    "name": "Злая монашка 30000",
+    "category": "Одноразки",
+    "price": 1800,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Монашка"
+  },
+  {
+    "id": 2,
+    "name": "Pafos turbo s 20000",
+    "category": "Одноразки",
+    "price": 2000,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Pafos"
+  },
+  {
+    "id": 3,
+    "name": "Pafos 20000",
+    "category": "Одноразки",
+    "price": 2000,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 3,
+    "images": [],
+    "subcategory": "Pafos"
+  },
+  {
+    "id": 4,
+    "name": "Waka Burst E.T 41000",
+    "category": "Одноразки",
+    "price": 1700,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Waka"
+  },
+  {
+    "id": 5,
+    "name": "Waka Blast 38000",
+    "category": "Одноразки",
+    "price": 1600,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Waka"
+  },
+  {
+    "id": 6,
+    "name": "Waka 35000 (E.T & Spike)",
+    "category": "Одноразки",
+    "price": 1500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Waka"
+  },
+  {
+    "id": 7,
+    "name": "Waka 20000 Extra",
+    "category": "Одноразки",
+    "price": 1600,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 3,
+    "images": [],
+    "subcategory": "Waka"
+  },
+  {
+    "id": 8,
+    "name": "Самоубийца v2",
+    "category": "Одноразки",
+    "price": 1400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 9,
+    "name": "Waka 20000",
+    "category": "Одноразки",
+    "price": 1400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Waka"
+  },
+  {
+    "id": 10,
+    "name": "Vozol Vista 20000",
+    "category": "Одноразки",
+    "price": 999,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 11,
+    "name": "Geekbar 30000",
+    "category": "Одноразки",
+    "price": 800,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 3,
+    "images": [],
+    "subcategory": "Geekbar"
+  },
+  {
+    "id": 12,
+    "name": "Geekbar 40000",
+    "category": "Одноразки",
+    "price": 850,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Geekbar"
+  },
+  {
+    "id": 13,
+    "name": "Nexa Pro 30000",
+    "category": "Одноразки",
+    "price": 750,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 14,
+    "name": "Meloso by Geekvape 30000",
+    "category": "Одноразки",
+    "price": 700,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Geekbar"
+  },
+  {
+    "id": 15,
+    "name": "Рик и Морти экстра хард 20000",
+    "category": "Одноразки",
+    "price": 1300,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 3,
+    "images": [],
+    "subcategory": "Rick and Morty"
+  },
+  {
+    "id": 16,
+    "name": "Rick Morty Bad Acid 30000",
+    "category": "Одноразки",
+    "price": 1650,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Rick and Morty"
+  },
+  {
+    "id": 17,
+    "name": "Lost Mary MO 10000 Black Gold Edition",
+    "category": "Одноразки",
+    "price": 800,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Lost Mary"
+  },
+  {
+    "id": 18,
+    "name": "Hyper Bar 40000",
+    "category": "Одноразки",
+    "price": 1450,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 19,
+    "name": "Lost Mary Mixer 20000",
+    "category": "Одноразки",
+    "price": 1400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 3,
+    "images": [],
+    "subcategory": "Lost Mary"
+  },
+  {
+    "id": 20,
+    "name": "Rick Morty Bad Trip 25000",
+    "category": "Одноразки",
+    "price": 1600,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Rick and Morty"
+  },
+  {
+    "id": 21,
+    "name": "Rick and Morty Zombie 23000",
+    "category": "Одноразки",
+    "price": 1400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Rick and Morty"
+  },
+  {
+    "id": 22,
+    "name": "Рик и Морти bottle",
+    "category": "Одноразки",
+    "price": 1200,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Rick and Morty"
+  },
+  {
+    "id": 23,
+    "name": "Supsmok",
+    "category": "Одноразки",
+    "price": 300,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 3,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 24,
+    "name": "Рик и Морти Jackpot 18000",
+    "category": "Одноразки",
+    "price": 1050,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Rick and Morty"
+  },
+  {
+    "id": 25,
+    "name": "Lost Mary MO 30000",
+    "category": "Одноразки",
+    "price": 1400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Lost Mary"
+  },
+  {
+    "id": 26,
+    "name": "Rabokit 3000",
+    "category": "Одноразки",
+    "price": 400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 27,
+    "name": "Lost Mary X-Link",
+    "category": "Одноразки",
+    "price": 1500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 3,
+    "images": [],
+    "subcategory": "Lost Mary"
+  },
+  {
+    "id": 28,
+    "name": "AAOK 50000",
+    "category": "Одноразки",
+    "price": 1200,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 29,
+    "name": "JNR 60000",
+    "category": "Одноразки",
+    "price": 1600,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 30,
+    "name": "ELFBAR BC PRO 16000",
+    "category": "Одноразки",
+    "price": 1300,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Elf Bar"
+  },
+  {
+    "id": 31,
+    "name": "ELFBAR GH23000",
+    "category": "Одноразки",
+    "price": 1400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 3,
+    "images": [],
+    "subcategory": "Elf Bar"
+  },
+  {
+    "id": 32,
+    "name": "GEEKBAR SLIMOR",
+    "category": "Одноразки",
+    "price": 700,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Geekbar"
+  },
+  {
+    "id": 33,
+    "name": "DRAGBAR 25000",
+    "category": "Одноразки",
+    "price": 750,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 34,
+    "name": "Dojo Sphere",
+    "category": "Одноразки",
+    "price": 800,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Одноразовая электронная сигарета. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 35,
+    "name": "Монашка (обычная)",
+    "category": "Жидкость",
+    "price": 400,
+    "old_price": null,
+    "badge": "hit",
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Монашка"
+  },
+  {
+    "id": 36,
+    "name": "Самоубийца v2 100 мг",
+    "category": "Жидкость",
+    "price": 500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 4,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 37,
+    "name": "John Legend 120 мл, 3 мг (щёлочь, 70/30 PG/VG)",
+    "category": "Жидкость",
+    "price": 600,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 38,
+    "name": "Убивашка 90 мг",
+    "category": "Жидкость",
+    "price": 500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 4,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 39,
+    "name": "Никотян 80 мг",
+    "category": "Жидкость",
+    "price": 450,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 40,
+    "name": "Монашка bubbles",
+    "category": "Жидкость",
+    "price": 500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 4,
+    "images": [],
+    "subcategory": "Монашка"
+  },
+  {
+    "id": 41,
+    "name": "Rick and Morty Bad Trip 50 мг",
+    "category": "Жидкость",
+    "price": 450,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Rick and Morty"
+  },
+  {
+    "id": 42,
+    "name": "Rick and Morty Catswill 50 мг",
+    "category": "Жидкость",
+    "price": 500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 4,
+    "images": [],
+    "subcategory": "Rick and Morty"
+  },
+  {
+    "id": 43,
+    "name": "Oggo Premium 20 мг",
+    "category": "Жидкость",
+    "price": 400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Oggo"
+  },
+  {
+    "id": 44,
+    "name": "Oggo Киллерша",
+    "category": "Жидкость",
+    "price": 450,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Жидкость для электронных сигарет. Всё оригинал. Вкус уточняйте у менеджера.",
+    "swatch": 4,
+    "images": [],
+    "subcategory": "Oggo"
+  },
+  {
+    "id": 45,
+    "name": "Испаритель Manto AIO",
+    "category": "Расходники",
+    "price": 300,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Расходный материал для под-систем. Совместимость уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 46,
+    "name": "Испаритель Geekvape",
+    "category": "Расходники",
+    "price": 299,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Расходный материал для под-систем. Совместимость уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Geekvape"
+  },
+  {
+    "id": 47,
+    "name": "Картридж Xros",
+    "category": "Расходники",
+    "price": 299,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Расходный материал для под-систем. Совместимость уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Vaporesso"
+  },
+  {
+    "id": 48,
+    "name": "Испаритель Smoant K-1 Coil",
+    "category": "Расходники",
+    "price": 290,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Расходный материал для под-систем. Совместимость уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Smoant"
+  },
+  {
+    "id": 49,
+    "name": "Картридж Aegis Hero",
+    "category": "Расходники",
+    "price": 500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Расходный материал для под-систем. Совместимость уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Geekvape"
+  },
+  {
+    "id": 50,
+    "name": "Картридж Aegis Boost",
+    "category": "Расходники",
+    "price": 500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Расходный материал для под-систем. Совместимость уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Geekvape"
+  },
+  {
+    "id": 51,
+    "name": "Картридж Pasito 2",
+    "category": "Расходники",
+    "price": 500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Расходный материал для под-систем. Совместимость уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Smoant"
+  },
+  {
+    "id": 52,
+    "name": "Картридж Knight 80 (комплект)",
+    "category": "Расходники",
+    "price": 1000,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Расходный материал для под-систем. Совместимость уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Smoant"
+  },
+  {
+    "id": 53,
+    "name": "АКБ 18650",
+    "category": "Расходники",
+    "price": 450,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Расходный материал для под-систем. Совместимость уточняйте у менеджера.",
+    "swatch": 2,
+    "images": [],
+    "subcategory": "Другие"
+  },
+  {
+    "id": 54,
+    "name": "DLTA Adrenaline",
+    "category": "Шайбы",
+    "price": 400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Никотиновые шайбы. Вкус и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": ""
+  },
+  {
+    "id": 55,
+    "name": "DLTA Burn",
+    "category": "Шайбы",
+    "price": 400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Никотиновые шайбы. Вкус и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": ""
+  },
+  {
+    "id": 56,
+    "name": "DLTA Monster",
+    "category": "Шайбы",
+    "price": 400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Никотиновые шайбы. Вкус и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": ""
+  },
+  {
+    "id": 57,
+    "name": "DLTA Red Bull",
+    "category": "Шайбы",
+    "price": 400,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Никотиновые шайбы. Вкус и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": ""
+  },
+  {
+    "id": 58,
+    "name": "Loop",
+    "category": "Ватки",
+    "price": 350,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Ватки для под-систем. Наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": ""
+  },
+  {
+    "id": 59,
+    "name": "Podonki x Mad",
+    "category": "Ватки",
+    "price": 350,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Ватки для под-систем. Наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": ""
+  },
+  {
+    "id": 60,
+    "name": "Podonki x Critical",
+    "category": "Ватки",
+    "price": 350,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Ватки для под-систем. Наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": ""
+  },
+  {
+    "id": 61,
+    "name": "Podonki",
+    "category": "Ватки",
+    "price": 350,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Ватки для под-систем. Наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": ""
+  },
+  {
+    "id": 62,
+    "name": "Pasito Pro",
+    "category": "Поды",
+    "price": 2000,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Smoant"
+  },
+  {
+    "id": 63,
+    "name": "Pasito 2 Limit",
+    "category": "Поды",
+    "price": 2600,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Smoant"
+  },
+  {
+    "id": 64,
+    "name": "Pasito 3",
+    "category": "Поды",
+    "price": 3300,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Smoant"
+  },
+  {
+    "id": 65,
+    "name": "Knight 80 Limit",
+    "category": "Поды",
+    "price": 2700,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Smoant"
+  },
+  {
+    "id": 66,
+    "name": "Aegis H45",
+    "category": "Поды",
+    "price": 2500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Geekvape"
+  },
+  {
+    "id": 67,
+    "name": "Xros Pro 2",
+    "category": "Поды",
+    "price": 2500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Vaporesso"
+  },
+  {
+    "id": 68,
+    "name": "Xros Mini",
+    "category": "Поды",
+    "price": 1299,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Vaporesso"
+  },
+  {
+    "id": 69,
+    "name": "Xros Cube",
+    "category": "Поды",
+    "price": 1300,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Vaporesso"
+  },
+  {
+    "id": 70,
+    "name": "Xros 6",
+    "category": "Поды",
+    "price": 2500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Vaporesso"
+  },
+  {
+    "id": 71,
+    "name": "Xros 6 Mini",
+    "category": "Поды",
+    "price": 2000,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Vaporesso"
+  },
+  {
+    "id": 72,
+    "name": "Xros 5 Mini",
+    "category": "Поды",
+    "price": 1700,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Vaporesso"
+  },
+  {
+    "id": 73,
+    "name": "Xros 5",
+    "category": "Поды",
+    "price": 2000,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Vaporesso"
+  },
+  {
+    "id": 74,
+    "name": "Xros 5 Nano",
+    "category": "Поды",
+    "price": 2500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Vaporesso"
+  },
+  {
+    "id": 75,
+    "name": "Aegis H45 Classic",
+    "category": "Поды",
+    "price": 2499,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Geekvape"
+  },
+  {
+    "id": 76,
+    "name": "Aegis Hero 5",
+    "category": "Поды",
+    "price": 2600,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Geekvape"
+  },
+  {
+    "id": 77,
+    "name": "Aegis Boost 3",
+    "category": "Поды",
+    "price": 3000,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Geekvape"
+  },
+  {
+    "id": 78,
+    "name": "Aegis B100",
+    "category": "Поды",
+    "price": 3000,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": "Geekvape"
+  },
+  {
+    "id": 79,
+    "name": "Knight AIO",
+    "category": "Поды",
+    "price": 2900,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 1,
+    "images": [],
+    "subcategory": "Smoant"
+  },
+  {
+    "id": 80,
+    "name": "Aegis B60",
+    "category": "Поды",
+    "price": 2500,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Вкус / цвет — по согласованию"
+    ],
+    "desc": "Под-система. Цвета и наличие уточняйте у менеджера.",
+    "swatch": 0,
+    "images": [],
+    "subcategory": "Geekvape"
+  },
+  {
+    "id": 81,
+    "name": "Sour Energy",
+    "category": "Энергетик",
+    "price": 100,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Энергетический напиток.",
+    "swatch": 5,
+    "images": [],
+    "subcategory": ""
+  },
+  {
+    "id": 82,
+    "name": "Chapman Super Slim вишня",
+    "category": "Сигареты",
+    "price": 300,
+    "old_price": null,
+    "badge": null,
+    "sizes": [
+      "Стандарт"
+    ],
+    "desc": "Сигареты. Только для лиц старше 18 лет.",
+    "swatch": 3,
+    "images": [],
+    "subcategory": ""
+  }
+]
