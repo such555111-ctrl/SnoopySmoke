@@ -20,7 +20,7 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import declarative_base, sessionmaker, scoped_session
 
 logging.basicConfig(level=logging.INFO)
-log = logging.getLogger("sh_shop")
+log = logging.getLogger("snoopy_smoke")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 if not BOT_TOKEN:
@@ -31,7 +31,7 @@ if not BOT_TOKEN:
 BASE_URL = (os.environ.get("WEBHOOK_URL") or os.environ.get("RENDER_EXTERNAL_URL") or "").rstrip("/")
 
 # Telegram-аккаунт менеджера (без @) — на него ведёт кнопка «Написать менеджеру».
-SHOP_CONTACT = (os.environ.get("SHOP_CONTACT") or "SHvape_manager").lstrip("@").strip()
+SHOP_CONTACT = (os.environ.get("SHOP_CONTACT") or "sn0opysmoke").lstrip("@").strip()
 
 # Пароль для входа в админ-панель (/admin). Задаётся в переменных окружения.
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD")
@@ -57,8 +57,17 @@ try:
     DELIVERY_FEE = int(os.environ.get("DELIVERY_FEE", "200"))
 except ValueError:
     DELIVERY_FEE = 200
+# Акция «корзина от N ₽»: доставка бесплатно, а при самовывозе — скидка 5% (0 в FREE_DELIVERY_FROM отключает акцию)
+try:
+    FREE_DELIVERY_FROM = int(os.environ.get("FREE_DELIVERY_FROM", "2200"))
+except ValueError:
+    FREE_DELIVERY_FROM = 2200
+try:
+    PICKUP_DISCOUNT_PERCENT = float(os.environ.get("PICKUP_DISCOUNT_PERCENT", "5"))
+except ValueError:
+    PICKUP_DISCOUNT_PERCENT = 5.0
 PICKUP_POINTS = [
-    p.strip() for p in (os.environ.get("PICKUP_POINTS") or "Пролетарская,Девяткино,Мурино").split(",") if p.strip()
+    p.strip() for p in (os.environ.get("PICKUP_POINTS") or "Мытищи,м. Ростокино").split(",") if p.strip()
 ]
 
 # Программа лояльности: 1 балл = 1 рубль
@@ -797,14 +806,14 @@ def cmd_start(message: types.Message):
     if not BASE_URL:
         bot.send_message(
             message.chat.id,
-            "SH SHOP: мини-апп ещё не сконфигурирован (не задан WEBHOOK_URL)."
+            "Snoopy Smoke: мини-апп ещё не сконфигурирован (не задан WEBHOOK_URL)."
         )
         return
 
     keyboard = types.InlineKeyboardMarkup()
     keyboard.add(
         types.InlineKeyboardButton(
-            text="🚀 Открыть SH SHOP",
+            text="💨 Открыть Snoopy Smoke",
             web_app=types.WebAppInfo(url=BASE_URL + "/")
         )
     )
@@ -828,11 +837,13 @@ def cmd_start(message: types.Message):
 
     bot.send_message(
         message.chat.id,
-        "🚀 *SH SHOP — всё для пара*\n\n"
-        "*Лучшие цены. Всё оригинал.*\n"
-        "Одноразки, жидкости, поды, расходники и шайбы — выбирайте в каталоге.\n"
-        "📍 Самовывоз: Пролетарская, Девяткино, Мурино\n"
-        "🚚 Доставка — 200 ₽\n\n"
+        "💨 *Snoopy Smoke — всё для электронных сигарет*\n\n"
+        "*Только оригинал. Цены ниже, чем в табачных магазинах.*\n"
+        "Одноразки, поды, жидкости и испарители — выбирайте в каталоге.\n"
+        f"📍 Самовывоз: {', '.join(PICKUP_POINTS)}\n"
+        f"🚚 Быстрая доставка — {fmt_price(DELIVERY_FEE)}\n"
+        "🎁 Приведи друга — по 100 ₽ скидки каждому\n"
+        f"🛒 Корзина от {fmt_price(FREE_DELIVERY_FROM)} — бесплатная доставка или скидка {PICKUP_DISCOUNT_PERCENT:g}%\n\n"
         "Нажмите кнопку ниже, чтобы открыть каталог и оформить заказ.",
         reply_markup=keyboard,
         parse_mode="Markdown",
@@ -855,6 +866,7 @@ def index():
 @app.route("/api/config", methods=["GET"])
 def public_config():
     return jsonify({"contact": SHOP_CONTACT, "delivery_fee": DELIVERY_FEE, "pickup_points": PICKUP_POINTS,
+                    "free_delivery_from": FREE_DELIVERY_FROM, "pickup_discount_percent": PICKUP_DISCOUNT_PERCENT,
                     "cashback_percent": CASHBACK_PERCENT, "max_points_percent": MAX_POINTS_PERCENT,
                     "point_value": POINT_VALUE})
 
@@ -1011,7 +1023,16 @@ def create_order():
         discount = compute_promo_discount(promo, subtotal)
 
     # --- баллы: проверяем до любых списаний ---
-    goods_total = subtotal - discount                       # сумма корзины с учётом промокода
+    # акция «корзина от 2200 ₽»: доставка бесплатно или скидка при самовывозе
+    after_promo = subtotal - discount
+    bulk_discount = 0
+    if FREE_DELIVERY_FROM and after_promo >= FREE_DELIVERY_FROM:
+        if delivery["mode"] == "delivery":
+            delivery["fee"] = 0
+            delivery["free"] = True
+        elif PICKUP_DISCOUNT_PERCENT > 0:
+            bulk_discount = round(after_promo * PICKUP_DISCOUNT_PERCENT / 100, 2)
+    goods_total = after_promo - bulk_discount               # сумма корзины с учётом промокода и акции
     points_to_spend = parse_points(data.get("points_to_spend"))
     if points_to_spend:
         if not customer_chat_id:
@@ -1059,6 +1080,7 @@ def create_order():
         "items": items,
         "subtotal": subtotal,
         "discount": discount,
+        "bulk_discount": bulk_discount,
         "promo_code": promo.get("code") if promo else None,
         "delivery": delivery,
         "total": total,
@@ -1094,18 +1116,21 @@ def create_order():
                     f"Начислено кешбэка: {cashback} б. ({fmt_price(cashback * POINT_VALUE)})\n")
 
     discount_line = ""
+    if discount > 0 or bulk_discount > 0:
+        discount_line = f"Сумма товаров: {fmt_price(subtotal)}\n"
     if discount > 0:
-        discount_line = (
-            f"Сумма товаров: {fmt_price(subtotal)}\n"
-            f"Промокод: {promo.get('code')} (−{fmt_price(discount)})\n"
-        )
+        discount_line += f"Промокод: {promo.get('code')} (−{fmt_price(discount)})\n"
+    if bulk_discount > 0:
+        discount_line += f"Скидка {PICKUP_DISCOUNT_PERCENT:g}% (корзина от {fmt_price(FREE_DELIVERY_FROM)}): −{fmt_price(bulk_discount)}\n"
+    if delivery.get("free"):
+        fee_line = f"Доставка: бесплатно (корзина от {fmt_price(FREE_DELIVERY_FROM)})\n"
 
     if customer_chat_id:
         try:
             bot.send_message(
                 customer_chat_id,
                 "✅ Заказ оформлен!\n\n"
-                f"Номер заказа: SH-{new_id}\n"
+                f"Номер заказа: SS-{new_id}\n"
                 f"{items_lines}\n\n"
                 f"{delivery_block}\n\n"
                 f"{discount_line}"
@@ -1118,7 +1143,7 @@ def create_order():
             log.warning("Не удалось отправить подтверждение покупателю: %s", e)
 
     admin_text = (
-        f"🛒 Новый заказ SH-{new_id}\n\n"
+        f"🛒 Новый заказ SS-{new_id}\n\n"
         f"Клиент: {name}\n"
         f"Телефон: {phone}\n"
         + (f"Telegram: @{customer_username}\n" if customer_username else "")
@@ -1218,7 +1243,7 @@ def customer_cancel_order(oid):
 
     for admin_id in ADMIN_CHAT_IDS:
         try:
-            bot.send_message(admin_id, f"❌ Клиент отменил заказ SH-{oid}")
+            bot.send_message(admin_id, f"❌ Клиент отменил заказ SS-{oid}")
         except Exception as e:
             log.warning("Не удалось уведомить администратора %s: %s", admin_id, e)
 
@@ -1614,7 +1639,7 @@ def admin_message_customer(oid):
     try:
         bot.send_message(
             chat_id,
-            f"💬 Сообщение от SH SHOP по заказу SH-{oid}:\n\n{text}"
+            f"💬 Сообщение от Snoopy Smoke по заказу SS-{oid}:\n\n{text}"
         )
     except Exception as e:
         abort(400, description=f"Не удалось отправить сообщение: {e}")
@@ -1658,7 +1683,7 @@ def admin_message_question(qid):
     try:
         bot.send_message(
             chat_id,
-            f"💬 Ответ от SH SHOP по товару «{q.get('product_name','')}»:\n\n{text}"
+            f"💬 Ответ от Snoopy Smoke по товару «{q.get('product_name','')}»:\n\n{text}"
         )
     except Exception as e:
         abort(400, description=f"Не удалось отправить ответ: {e}")

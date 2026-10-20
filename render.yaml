@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sh-shop-bot
+    name: snoopy-smoke-bot
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
@@ -17,5 +17,7 @@ services:
       - key: DATABASE_URL
         sync: false
       - key: SHOP_CONTACT
-        value: SHvape_manager
+        value: sn0opysmoke
+      - key: PICKUP_POINTS
+        value: Мытищи,м. Ростокино
     # Данные и фото хранятся в Neon (DATABASE_URL) — Persistent Disk не нужен.
